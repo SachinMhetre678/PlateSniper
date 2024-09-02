@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['license-plate', 'license-plate-number']
+
+roboflow:
+  workspace: jodaryle-factor-gjkmr
+  project: license-plate-object-detection
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jodaryle-factor-gjkmr/license-plate-object-detection/dataset/6
